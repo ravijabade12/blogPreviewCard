@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    font-family: "Figtree", sans-serif;
+
+
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 10px 10px black;
+}
+
+.img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.learn {
+    background-color: yellow;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.grey {
+    color: hsl(0, 0%, 50%);
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.name p {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.publish {
+    font-weight: 500;
+}
+
+@media(max-width:375px) {
+    .container {
+        width: 280px;
+    }
+
+}
